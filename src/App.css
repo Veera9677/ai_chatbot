@@ -60,7 +60,7 @@
   padding: 9px;
 }
 .show-qns{
-background-color: rgb(241, 235, 235);
+background-color:lightgreen;
 border-radius: 22px;
 padding: 11px;
 text-align: left;
@@ -82,7 +82,8 @@ text-align: left;
   width: 93%;
   border: none;
   outline: none;
-  padding: 17px;
+  padding: 30px;
+  border-radius: 22px;
 }
 
 .input-container button{

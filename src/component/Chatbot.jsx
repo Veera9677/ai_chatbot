@@ -49,7 +49,7 @@ const Chatbot=()=>{
                 <HashLoader className ='loader' loading = {loading}/>
             </div>
             <div className='input-container'>
-                <input type='text' placeholder='ask with ar' onChange={handleonChange}/>
+                <input type='text' placeholder='ask with ai' onChange={handleonChange}/>
                 <button onClick={getData}>Submit</button>
             </div>
         </div>
