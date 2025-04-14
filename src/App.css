@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container{
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  padding: 11px;
+}
+.data-container{
+  height: 76%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.loader{
+  text-align: center;
+  margin-top: 44px;
+}
+.ans{
+  padding: 9px;
+}
+.show-qns{
+background-color: rgb(241, 235, 235);
+border-radius: 22px;
+padding: 11px;
+text-align: left;
+}
+.hide-qns{
+  display: none;
+}
+.input-container{
+  width: 80%;
+  height: 20%;
+  border-radius: 22px;
+  box-shadow: 0px 3px 3px 2px silver;
+  border-top: 1px solid silver;
+  position: fixed;
+  top: 75%;
+  left: 10%;
+}
+.input-container input{
+  width: 93%;
+  border: none;
+  outline: none;
+  padding: 17px;
+}
+
+.input-container button{
+  width: 90px;
+  height: 38px;
+  color: rgb(240, 228, 228);
+  border: none;
+  outline: none;
+  border-radius: 18px;
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 1%;
+  background-color: black;
+}
